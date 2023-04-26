@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css" />
+
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Antiquados Aparecida</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+
+        <div id="MenuBtn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>Antiquados</span> Aparecida</a>
+
+        <nav class="navbar">
+            <a href="#Home">Principal</a>
+            <a href="#Vehicle">Veículos</a>
+            <a href="#Services">Serviços</a>
+            <a href="#Review">Comentários</a>
+            <a href="#Contact">Localização</a>
+        </nav>
+
+        <div id="LoginBtn">
+            <button class="btn">Login</button>
+            <i class="fas fa-user"></i>
+        </div>
+
+
+
+    </header>
+    <!-- Fim do cabeçalho -->
+
+    <!-- Popup de login -->
+    <div class="loginFormContainer">
+        <span id="CloseLoginForm" class="fas fa-times"></span>
+
+        <form action="">
+            <h3>Login de Usuário</h3>
+            <input type="email" placeholder="Email" required class="box">
+            <input type="Senha" placeholder="Senha" required class="box">
+            <p>Ainda não tem uma conta? : <a href="/cadastro.html">Clique aqui</a></p>
+            <button class="btn">Entrar</button>
+            <p>ou fazer Login com</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Começo da seção principal -->
+    <section id="Home" class="home">
+        <!--<h3 data-speed="-2" class="homeParallexEffect">Seu sonho vindo dos anos 80</h3>-->
+        <img data-speed="5" class="homeParallexEffect" src="images/home.png" alt="">
+        <a href="#" class="btn">Ver carros</a>
+    </section>
+    <!-- Fim da seção principal -->
+
+    <!-- Ícones -->
+    <section class="iconsContainer">
+
+        <div class="icons">
+            <i class="fas fa-home"></i>
+
+            <div class="content">
+                <h3>Loja na Aparecida</h3>
+                <p>proxima a Igreja da Aparecida</p>
+            </div>
+
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3></h3>
+                <p>Vários carros a disposição</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>+ de 30</h3>
+                <p>Clientes Satisfeitos</p>
+            </div>
+        </div>
+
+
+        <div class="icons">
+            <i class="fas fa-car"></i>
+            <div class="content">
+                <h3></h3>
+                <p>Funcionamos das 8 às 17 horas </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Carros a disposição -->
+    <section id="Vehicle" class="vehicle">
+        <h1 class="heading">Carros para Alugar</h1>
+
+        <div class="swiper VehiclesSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images 2/fusca.png" alt="">
+                    <div class="content">
+                        <h3>VolksWagen Fusca 1300</h3>
+                        <div class="price"><span>Preço : </span>R$ 150/dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1969
+                            <span class="fas fa-circle"></span>Manual de 4 marchas
+                            <span class="fas fa-circle"></span>Gasolina
+                            <span class="fas fa-circle"></span>105km/H
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/Bentley 3 litre.png" alt="">
+                    <div class="content">
+                        <h3>Bentley 8 Litre</h3>
+                        <div class="price"><span>Price : </span>R$250 o dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1930
+                            <span class="fas fa-circle"></span>Manual
+                            <span class="fas fa-circle"></span>Gasolina
+                            <span class="fas fa-circle"></span>177km/H
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/kombi.png" alt="">
+                    <div class="content">
+                        <h3>VolksWagen Kombi</h3>
+                        <div class="price"><span>Preço : </span>R$120 o dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1968
+                            <span class="fas fa-circle"></span>Manual de 4 marchas
+                            <span class="fas fa-circle"></span>Flex (álcool/gasolina)
+                            <span class="fas fa-circle"></span>130km/H
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/chevrolet bel air.png" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Bel Air</h3>
+                        <div class="price"><span>Preço : </span>R$200 o dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1957
+                            <span class="fas fa-circle"></span>Automático de 3 marchas
+                            <span class="fas fa-circle"></span>Gasolina
+                            <span class="fas fa-circle"></span>196km/H
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images 2/chevrolet chevette SL1.4.png" alt="">
+                    <div class="content">
+                        <h3>Chevrolet Chevette SL 1.4</h3>
+                        <div class="price"><span>Preço : </span>R$80 o dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1968
+                            <span class="fas fa-circle"></span>Manual de 4 marchas
+                            <span class="fas fa-circle"></span>Gasolina
+                            <span class="fas fa-circle"></span>150km/H
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images 2/Volkswagen Golf GLX 2.0.png" alt="">
+                    <div class="content">
+                        <h3>Volkswagen Golf GLX 2.0</h3>
+                        <div class="price"><span>Preço : </span>R$100 o dia</div>
+                        <p>
+                            <span class="fas fa-circle"></span>1995
+                            <span class="fas fa-circle"></span>Manual de 5 marchas
+                            <span class="fas fa-circle"></span>Gasolina
+                            <span class="fas fa-circle"></span>186km/H
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+
+    <!-- Nossos serviços -->
+    <section id="Services" class="services">
+        <h1 class="heading">Nossos serviços</h1>
+
+        <div class="boxContainer">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Aluguel de carros clássicos</h3>
+                <p>Sempre quis dar uma volta a bordo de um carro clássico de Hollywood e dirigir para o pôr do Sol? Apesar de não termos os letreiros, temos o pôr do Sol e o mais importante: os carros.</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Consertamos seu carro clássico</h3>
+                <p>Seu bem mais precioso com um motor quebrou e você não tem aonde deixar ele? Deixe na mão de quem a décadas cuida dos "idosos" e os entrega novos em folha.</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-headset"></i></i>
+                <h3>Atendimento personalizado</h3>
+                <p>Seja marcando horário, chegando pessoalmente em nossa loja ou para qualquer situação indesejada em sua vida estaremos lá para lhe atender da melhor forma possível!</p>
+                <button class="btn">Saiba mais</button>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>Troca de Baterias</h3>
+                    <p>Imprevistos acontecem e com a bateria de seu carro não seria diferente, para isso, contamos com pronta entrega de baterias para aonde você estiver em qualquer parte de Manaus.</p>
+                <button class="btn">Saiba mais</button>
+        </div>
+
+    </section>
+
+    <!-- Comentários de clientes -->
+    <section id="Review" class="review">
+        <h1 class="heading">Comentários de Clientes</h1>
+
+        <div class="swiper ReviewSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images 2/usuario 1.jpg" alt="">
+                    <div class="content">
+                        <p>Super recomendo! Carros de qualidade, customizados e com excelente preço...</p>
+                        <h3>Rafael Dias</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/lucca .png" alt="">
+                    <div class="content">
+                        <p>Quem diria que em pleno anos 2000 ainda existiria uma loja dessas! Meu pai adorou a carona e com certeza voltará para mais.</p>
+                        <h3>Lucca Miralha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/usuario 3.jpg" alt="">
+                    <div class="content">
+                        <p>Um homem com carro clássico, música boa não quer guerra com ninguém.</p>
+                        <h3>Júlio Gonçalves</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images 2/usuario 4.jpg" alt="">
+                    <div class="content">
+                        <p>Apesar da dificuldade em conseguir atendimento inicialmente, fui super bem tratada apesar de conhecer nada! O preço e a qualidade de atendimento superam outras lojas que já fui.</p>
+                        <h3>Pamela Soares</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- localização -->
+    <section id="Contact" class="contact">
+        <h1 class="heading">Nos localize!</h1>
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0110772906096!2d-60.02727057541166!3d-3.09171008510764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1aaa40d37829%3A0xa30d9bb8e0fec27a!2sFaculdade%20Est%C3%A1cio%20do%20Amazonas!5e0!3m2!1spt-BR!2sbr!4v1682431462527!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"" frameborder="0"></iframe>
+
+        </div>
+
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <a href="#"> &copy; <p>Antiquados<span style="color:rgb(0, 0, 0)"> Aparecida</p>
+        </p>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+    <!-- Script For JS -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
